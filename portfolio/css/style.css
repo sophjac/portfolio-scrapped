@@ -1,0 +1,42 @@
+                                                            footer {
+                                                                background-color: lightblue;
+                                                                color: black;
+                                                                grid-column: 1 / -1;
+                                                                /* begins in row 1 and spans full page */
+                                                                /*Can you explain what this does?*/
+                                                                grid-row: 7 / auto;
+                                                                /* begins in row 7 and spans 1 row */
+                                                                /*Can you rewrite it?*/
+                                                                padding-top: 30px;
+                                                                text-align: center;
+                                                            }
+                                                            
+                                                            #main-page {
+                                                                background-attachment: fixed;
+                                                                /* Parallax effect */
+                                                                background-image: url("../images/sophia-head.jpg");
+                                                                /* Your code here - Link to header.jpg in the images folder */
+                                                                background-position: center;
+                                                                /* Parallax effect */
+                                                                background-repeat: no-repeat;
+                                                                /* Parallax effect */
+                                                                background-size: cover;
+                                                                /* Parallax effect */
+                                                                color: white;
+                                                                height: 600px;
+                                                                /* Parallax effect */
+                                                                /*Your code here - cover the entire row*/
+                                                                grid-column: 1 / -1;
+                                                                grid-row: 2 / span 1;
+                                                            }
+                                                            
+                                                            header p {
+                                                                color: white;
+                                                                font-size: 24px;
+                                                                padding: 0 100px;
+                                                                text-align: center;
+                                                            }
+                                                            
+                                                            #about-page img {
+                                                                width: 400px;
+                                                            }
